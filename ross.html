@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="kTsfYTmId0G40sHT8S0m7JDRBaYqAFZRur2gfx64">
+
+    <title> TwoInchBrush | Bob Ross Database - List of all Bob Ross paintings
+</title>
+    <meta name="description" content="TwoInchBrush.com
+is an online database and lists every painting done by Bob Ross on his TV show 'The Joy of Painting'. You can find a list
+of all Bob Ross paintings and seasons.
+">
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=650fb254017b16685dfc" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {"csrfToken":"kTsfYTmId0G40sHT8S0m7JDRBaYqAFZRur2gfx64"}    </script>
+            <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false"
+                src="//scripts.mediavine.com/tags/two-inch-brush.js"></script>
+    
+    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content"/>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61441996-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <style>
+        @media  all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            .upgrade-browser {
+                display: block;
+            }
+        }
+
+        <!--
+        [if IE
+
+        ]
+        >
+        .upgrade-browser {
+            display: block;
+        }
+
+        <
+        !
+        [endif]
+
+        -->
+    </style>
+
+        <style>
+        .navbar {
+            background: transparent;
+            text-shadow: none;
+        }
+        #adsense-bannertop{
+            display: none !important;
+        }
+        .corona{
+            display: none !important;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="app">
+    <nav class="navbar  navbar-expand-xl navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">TwoInchBrush</a>
+        <div class="d-flex align-items-center">
+                        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#navmobile"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="$('#navmobile').modal();"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/getting-started">Getting Started</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/all-paintings" id="dropdown05" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Bob Ross Paintings</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown05">
+                        <div class="dropdown-arrow"></div>
+                        <a class="dropdown-item" href="/all-paintings">Bob Ross Paintings</a>
+                        <hr>
+                        <a class="dropdown-item" href="/colorsearch">Search by Color</a>
+                        <hr>
+                        <a class="dropdown-item" href="/contentsearch">Search by Content</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/all-paintings" id="dropdown05" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Community</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown05">
+                        <div class="dropdown-arrow"></div>
+                        <a class="dropdown-item" href="/fanmade">Paintings</a>
+                        <hr>
+                        <a class="dropdown-item" href="/articles">Articles</a>
+                        <hr>
+                        <a class="dropdown-item" href="/challenges">Challenges</a>
+                        <hr>
+                        <a class="dropdown-item" href="/events">Events</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/tools" id="dropdown05" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Tools & Colors</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown05">
+                        <div class="dropdown-arrow"></div>
+                        <a class="dropdown-item" href="/tools">Tools & Colors</a>
+                        <hr>
+                        <a class="dropdown-item" href="/tools/deals">Dealfinder</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/forum">Forum</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-md-0" method="POST" action="/search">
+                        <input type="hidden" name="_token" value="kTsfYTmId0G40sHT8S0m7JDRBaYqAFZRur2gfx64">                        <input class="form-control" type="text" name="search" placeholder="Search"
+                               style="height: 2.4rem">
+                    </form>
+                </li>
+            </ul>
+                            <span class="nav-item"><a class="nav-link" href="/login">Login</a></span>
+                <span class="nav-item"><a class="nav-link" href="/register">Register</a></span>
+                    </div>
+    </div>
+
+    <div id="navmobile" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav-mobile">
+                        <li class="mb-3">
+                            <form class="form-inline my-2 my-md-0" method="POST" action="/search">
+                                <input type="hidden" name="_token" value="kTsfYTmId0G40sHT8S0m7JDRBaYqAFZRur2gfx64">                                <input class="form-control w-100" type="text" name="search" placeholder="Search">
+                            </form>
+                        </li>
+                        <hr class="nav-mobile-divider">
+
+                        <li><a class="nav-mobile-link" href="/getting-started">
+                                <ion-icon name="star-outline" ></ion-icon>
+                                Getting Started</a></li>
+                        <hr class="nav-mobile-divider">
+
+                        <li><a class="nav-mobile-link" href="/all-paintings">
+                                <ion-icon name="images" ></ion-icon>
+                                Bob Ross Paintings</a></li>
+                        <li><a class="nav-mobile-link" href="/colorsearch">
+                                <ion-icon name="color-palette" ></ion-icon>
+                                Search by Color</a></li>
+                        <li><a class="nav-mobile-link" href="/contentsearch">
+                                <ion-icon name="heart" ></ion-icon>
+                                Search by Content</a></li>
+                        <hr class="nav-mobile-divider">
+
+                        <li><a class="nav-mobile-link" href="/fanmade">
+                                <ion-icon name="contacts" ></ion-icon>
+                                Community Paintings</a></li>
+                        <li><a class="nav-mobile-link" href="/articles">
+                                <ion-icon name="create" ></ion-icon>
+                                Articles</a></li>
+                        <li><a class="nav-mobile-link" href="/challenges">
+                                <ion-icon name="paper-plane" ></ion-icon>
+                                Challenges</a></li>
+                        <li><a class="nav-mobile-link" href="/events">
+                                <ion-icon name="planet" ></ion-icon>
+                                Events</a></li>
+                        <hr class="nav-mobile-divider">
+
+                        <li><a class="nav-mobile-link" href="/tools">
+                                <ion-icon name="brush" ></ion-icon>
+                                Tools & Colors</a></li>
+                        <li><a class="nav-mobile-link" href="/tools/deals">
+                                <ion-icon name="pricetag" ></ion-icon>
+                                Dealfinder</a></li>
+                        <li><a class="nav-mobile-link" href="/blog">
+                                <ion-icon name="book" ></ion-icon>
+                                Blog</a></li>
+                        <li><a class="nav-mobile-link" href="/forum">
+                                <ion-icon name="chatboxes"></ion-icon>
+                                Forum</a></li>
+                        <hr class="nav-mobile-divider">
+                                                    <li><a class="nav-mobile-link" href="/login">
+                                    <ion-icon name="log-in" ></ion-icon>
+                                    Login</a></li>
+                            <li><a class="nav-mobile-link" href="/register">
+                                    <ion-icon name="happy" ></ion-icon>
+                                    Register</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <div class="container py-2">
+        <div class="upgrade-browser alert alert-permanent alert-danger">
+            <p>Some parts of this website will not work with Internet Explorer.</p>
+            <p>Please use a different browser such as <a href="https://www.google.com/chrome/">Chrome</a> or <a
+                    href="https://www.mozilla.org/firefox/new/">Firefox</a>.</p>
+        </div>
+    </div>
+            <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <h1>All About Painting And Bob Ross</h1>
+                    <p class="mb-4">TwoInchBrush.com is a database listing all Bob Ross Paintings,
+                        various guides to get you started with painting, a great search
+                        function to help you find your next painting,
+                        and a wonderful community you can share your masterpieces with.</p>
+                    <a class="btn btn-primary" href="/all-paintings">All Paintings
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                    <a class="btn btn-primary" href="/getting-started">Learn Painting
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Bob Ross Painting of the Day</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="/painting/winter-solitude">
+                                <img src="/images/painting170.webp" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col-6 home-painting-card">
+                            <div class="home-painting-card-season">Season 10
+                                Episode 7</div>
+                            <a href="/painting/winter-solitude" class="text-body-color">
+                                <div class="home-painting-card-title">Winter Solitude</div>
+                            </a>
+                            <div class="home-painting-card-colors">7 Colors</div>
+                            <a href="/painting/winter-solitude" class="btn btn-primary">View Painting</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4>Painted by 27
+                        Community  Members </h4>
+                    <div class="row">
+                                                    <div  class="col-6 col-md-4 mb-4" >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/120">
+        <div data-img="/images/fanpaintings/fanpainting120.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview120.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Markalolo
+                    
+                </span>
+                <div class="float-right">
+                    1
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                    </div>
+    </a>
+</div>
+                            </div>
+                                                                                <div  class="col-6 col-md-4 mb-4" >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/271">
+        <div data-img="/images/fanpaintings/fanpainting271.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview271.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             MaxPowers
+                    
+                </span>
+                <div class="float-right">
+                    1
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                    </div>
+    </a>
+</div>
+                            </div>
+                                                                                <div  class="col-4 d-none d-md-block mb-4"
+                                 >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/621">
+        <div data-img="/images/fanpaintings/fanpainting621.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview621.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Jrhana
+                    
+                </span>
+                <div class="float-right">
+                    0
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                    </div>
+    </a>
+</div>
+                            </div>
+                                                                                                        </div>
+                                            <div class="row">
+                            <div class="col-12 text-center">
+                                <a href="/painting/winter-solitude" class="btn btn-primary">View more</a>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-grey">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/learning.svg">
+                    </div>
+                    <h2>Everything you need to paint</h2>
+                    <p>Interested in starting to paint?<br> Head over to our "Getting started" guide to find the
+                        easiest way to begin creating your own masterpieces.<br>
+                        Our "Tools & Color" pages has everything you need and tips for which items are really
+                        important and which are just nice to have.
+                    </p>
+                    <a href="/getting-started" class="btn btn-primary btn-sm mt-2">Getting Started</a>
+                    <a href="/tools" class="btn btn-primary btn-sm mt-2">Tools & Colors</a>
+                </div>
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/money.svg">
+                    </div>
+                    <h2>For the best price</h2>
+                    <p>To help you save real money when buying your supplies we've created a dealfinder that shows
+                        you the best deals for Bob Ross painting equipment on Amazon.com.<br>
+                    </p>
+                    <p>
+                        Check back often for great deals!
+                    </p>
+                    <a href="/tools/deals" class="btn btn-primary btn-sm mt-2">Dealfinder</a>
+                </div>
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/community.svg">
+                    </div>
+                    <h2>Be a part of our community</h2>
+                    <p>More than 3100 painters from all over the globe have
+                        joined TwoInchBrush to share their paintings with others.
+                    </p>
+                    <p>
+                        Join now and become a part of the movement!
+                    </p>
+                    <a href="/register" class="btn btn-primary btn-sm mt-2">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fanpaintings">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-4 offset-md-4 text-center">
+                    <h2>Painted by our community</h2>
+                    <div>
+                        <p>
+                            Ever wondered if "real" people can paint just as well as Bob Ross?
+                        </p>
+                        <p>
+                            Check out some of the paintings our community members have submitted and see for yourself!
+                        </p>
+                    </div>
+                    <a href="/fanmade" class="btn btn-primary">View More</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/8627">
+        <div data-img="/images/fanpaintings/fanpainting8627.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview8627.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Cheryl
+                    
+                </span>
+                <div class="float-right">
+                    5
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Blue Ridge Falls
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/3601">
+        <div data-img="/images/fanpaintings/fanpainting3601.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview3601.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             nigel stephens
+                    
+                </span>
+                <div class="float-right">
+                    0
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Snowfall Magic
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/6030">
+        <div data-img="/images/fanpaintings/fanpainting6030.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview6030.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Hado Hagen
+                    
+                </span>
+                <div class="float-right">
+                    2
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Splendor of a Snowy Winter
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/7300">
+        <div data-img="/images/fanpaintings/fanpainting7300.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview7300.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             LinzeePaints
+                    
+                </span>
+                <div class="float-right">
+                    1
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                In the Midst of Winter
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/3460">
+        <div data-img="/images/fanpaintings/fanpainting3460.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview3460.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Artist1536
+                    
+                </span>
+                <div class="float-right">
+                    2
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Silent Forest
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/10153">
+        <div data-img="/images/fanpaintings/fanpainting10153.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview10153.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Shadowlink11
+                    
+                </span>
+                <div class="float-right">
+                    1
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Christmas Eve Snow
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/9297">
+        <div data-img="/images/fanpaintings/fanpainting9297.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview9297.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Ahuebner2004
+                    
+                </span>
+                <div class="float-right">
+                    0
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Two Seasons
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/10935">
+        <div data-img="/images/fanpaintings/fanpainting10935.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview10935.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Evarawks
+                    
+                </span>
+                <div class="float-right">
+                    1
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Tranquil Seas 
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div id="amzn-assoc-ad-dadf2e7f-0ca1-412b-bfc9-7103783d9970"></div>
+            <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=dadf2e7f-0ca1-412b-bfc9-7103783d9970"></script>
+        </div>
+    </div>
+</div>    </section>
+    <footer>
+    <div class="container mt-4 pt-5 pb-5">
+        <div class="row">
+            <div class="col-12 col-md-3 mb-3">
+                <b>Social</b>
+                <div class="mb-4">
+                    <a href="https://www.facebook.com/2InchBrush" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://twitter.com/2InchBrush" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+
+                <b>Articles</b>
+                <ul>
+                    <li><a href="/blog/article/so-you-want-to-buy-a-bob-ross-painting/">How To Buy A Bob Ross Painting</a></li>
+                    <li><a href="/blog/article/the-5-easiest-bob-ross-paintings-for-beginners/">The 5 Easiest Bob Ross Paintings For Beginners</a></li>
+                    <li><a href="/blog/article/bob-ross-master-paint-set-review/">Bob Ross Master Paint Set Review</a></li>
+                    <li><a href="/blog/article/the-death-of-bob-ross-time-and-cause-of-death/">The Death Of Bob Ross – Time And Cause Of Death</a></li>
+                    <li><a href="/blog/article/the-military-career-of-bob-ross/">The Military Career of Bob Ross</a></li>
+                    <li><a href="/blog/article/brush-care-guide-how-to-clean-and-store-your-brushes/">Brush Care Guide – How To Clean & Store Your Brushes</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <b>Paintings</b>
+                <ul>
+                    <li><a href="/all-paintings">Bob Ross Paintings</a></li>
+                    <li><a href="/fanmade">Community Paintings</a></li>
+                    <li><a href="/colorsearch">Search by Color</a></li>
+                </ul>
+                <b>Other</b>
+                <ul>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <b>Learning</b>
+                <ul>
+                    <li><a href="/getting-started">Start Painting</a></li>
+                </ul>
+                <b>Tools</b>
+                <ul>
+                    <li><a href="/tools">Tools & Colors</a></li>
+                    <li><a href="/tools/deals">Dealfinder</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <b>Legal</b>
+                <ul>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/terms-of-service">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-12 text-center">
+                <p>
+                <small>
+                    THE BOB ROSS NAME AND IMAGES ARE TRADEMARKS OF BOB ROSS INC. ALL IMAGES AND LINKED VIDEOS ARE OWNED BY BOB ROSS INC.<br>
+                    TwoInchBrush.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com.
+                    Prices are updated regularly, but not claimed to be correct at all times.<br>
+                    <a href="http://www.felixauer.com/">Felix Auer</a>, 2019<br>
+                </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="/js/app.js?id=bdef84e459abf4b16f97"></script>
+<div id="amzn-assoc-ad-d3dfa75d-34d1-4a5f-808a-879b4dcb4aa6"></div>
+<!--<script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d3dfa75d-34d1-4a5f-808a-879b4dcb4aa6"></script>-->
+<!-- Begin PowerAds tag -->
+
+<script async src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+<div id="mediavine-settings" data-blocklist-universal-player-desktop="1" data-blocklist-universal-player-mobile="1" data-expires-at="2025-10-18"></div>
+
+<!-- End PowerAds tag -->
+</body>
+
+</html>
