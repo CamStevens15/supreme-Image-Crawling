@@ -4,7 +4,7 @@ import scrapy
 class CommunitySpider(scrapy.Spider):
     name = "community"
     allowed_domains = ["www.twoinchbrush.com"]
-    start_urls = ["https://www.twoinchbrush.com/fanpaintings"]
+    start_urls = ["http://www.twoinchbrush.com/"]
 
     def parse(self, response):
         filename = "ross_community.html"

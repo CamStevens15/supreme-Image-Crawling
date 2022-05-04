@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!-- CSRF Token -->
-    <meta name="csrf-token" content="b3frmXvflJEHAIDikAGj0OkMlgNWEPam5Kw5Tn15">
+    <meta name="csrf-token" content="T28KIWwWz8PBY0S8c98KraJUz8ZuKC1Y2yD1P8V5">
 
-    <title> Bob Ross Recreations
+    <title> TwoInchBrush | Bob Ross Database - List of all Bob Ross paintings
 </title>
-    <meta name="description" content="Paintings made by fans of
-the TV show 'The Joy of Painting' with Bob Ross.
+    <meta name="description" content="TwoInchBrush.com
+is an online database and lists every painting done by Bob Ross on his TV show 'The Joy of Painting'. You can find a list
+of all Bob Ross paintings and seasons.
 ">
 
     <!-- Styles -->
@@ -20,7 +21,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
 
     <!-- Scripts -->
     <script>
-        window.Laravel = {"csrfToken":"b3frmXvflJEHAIDikAGj0OkMlgNWEPam5Kw5Tn15"}    </script>
+        window.Laravel = {"csrfToken":"T28KIWwWz8PBY0S8c98KraJUz8ZuKC1Y2yD1P8V5"}    </script>
             <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false"
                 src="//scripts.mediavine.com/tags/two-inch-brush.js"></script>
     
@@ -84,7 +85,18 @@ the TV show 'The Joy of Painting' with Bob Ross.
         -->
     </style>
 
-        <link rel="stylesheet" href="/css/progressive-image.min.css">
+        <style>
+        .navbar {
+            background: transparent;
+            text-shadow: none;
+        }
+        #adsense-bannertop{
+            display: none !important;
+        }
+        .corona{
+            display: none !important;
+        }
+    </style>
 
 </head>
 
@@ -155,7 +167,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
 
                 <li class="nav-item">
                     <form class="form-inline my-2 my-md-0" method="POST" action="/search">
-                        <input type="hidden" name="_token" value="b3frmXvflJEHAIDikAGj0OkMlgNWEPam5Kw5Tn15">                        <input class="form-control" type="text" name="search" placeholder="Search"
+                        <input type="hidden" name="_token" value="T28KIWwWz8PBY0S8c98KraJUz8ZuKC1Y2yD1P8V5">                        <input class="form-control" type="text" name="search" placeholder="Search"
                                style="height: 2.4rem">
                     </form>
                 </li>
@@ -178,7 +190,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
                     <ul class="nav-mobile">
                         <li class="mb-3">
                             <form class="form-inline my-2 my-md-0" method="POST" action="/search">
-                                <input type="hidden" name="_token" value="b3frmXvflJEHAIDikAGj0OkMlgNWEPam5Kw5Tn15">                                <input class="form-control w-100" type="text" name="search" placeholder="Search">
+                                <input type="hidden" name="_token" value="T28KIWwWz8PBY0S8c98KraJUz8ZuKC1Y2yD1P8V5">                                <input class="form-control w-100" type="text" name="search" placeholder="Search">
                             </form>
                         </li>
                         <hr class="nav-mobile-divider">
@@ -245,75 +257,66 @@ the TV show 'The Joy of Painting' with Bob Ross.
                     href="https://www.mozilla.org/firefox/new/">Firefox</a>.</p>
         </div>
     </div>
-            <section>
+            <header>
         <div class="container">
-            <div class="row mb-3">
-                <div class="col-12 col-md-8 col-lg-6">
-                    <h1>Bob Ross Recreations By Our Community</h1>
-                    <p>
-                        A lot of the talented painters in our community created their own versions of Bob's paintings.
-                    </p>
-                    <div class="mb-3">
-                        <a class="btn btn-outline-primary" href="/fanmade">Show all Paintings</a>
-                        <a class="btn btn-outline-primary" href="/originals">Show Originals</a>
-                    </div>
-                                            <p>
-                            Want to show the world your own creations? <a href="/register">Sign up on TwoInchBrush.com
-                                and join our community!</a>
-                        </p>
-                                    </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <h1>All About Painting And Bob Ross</h1>
+                    <p class="mb-4">TwoInchBrush.com is a database listing all Bob Ross Paintings,
+                        various guides to get you started with painting, a great search
+                        function to help you find your next painting,
+                        and a wonderful community you can share your masterpieces with.</p>
+                    <a class="btn btn-primary" href="/all-paintings">All Paintings
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                    <a class="btn btn-primary" href="/getting-started">Learn Painting
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                </div>
             </div>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="d-inline text-center">
-                        <nav>
-        <ul class="pagination">
-            
-                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
-                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
-                </li>
-            
-            
-                            
-                
-                
-                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=2">2</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=3">3</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=4">4</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=5">5</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=6">6</a></li>
-                                                                                        
-                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
-                
-                
-                                            
-                
-                
-                                                                                        <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=817">817</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=818">818</a></li>
-                                                                        
-            
-                            <li class="page-item">
-                    <a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
-                </li>
-                    </ul>
-    </nav>
-
-                    </div>
+                    <h2>Bob Ross Painting of the Day</h2>
                 </div>
             </div>
             <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11005">
-        <div data-img="/images/fanpaintings/fanpainting11005.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11005.jpg" class="preview img-fluid" alt="image"/>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="/painting/winter-solitude">
+                                <img src="/images/painting170.webp" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col-6 home-painting-card">
+                            <div class="home-painting-card-season">Season 10
+                                Episode 7</div>
+                            <a href="/painting/winter-solitude" class="text-body-color">
+                                <div class="home-painting-card-title">Winter Solitude</div>
+                            </a>
+                            <div class="home-painting-card-colors">7 Colors</div>
+                            <a href="/painting/winter-solitude" class="btn btn-primary">View Painting</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4>Painted by 27
+                        Community  Members </h4>
+                    <div class="row">
+                                                    <div  class="col-6 col-md-4 mb-4" >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/120">
+        <div data-img="/images/fanpaintings/fanpainting120.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview120.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             jojocom
+                                             Markalolo
                     
                 </span>
                 <div class="float-right">
@@ -321,77 +324,137 @@ the TV show 'The Joy of Painting' with Bob Ross.
                     <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
-                            <div class="painting-card__title">
-                    <div class="d-flex align-items-center justify-content-between">
-                   <span>
-                Gray Mountain
-                   </span>
-
-                        <div title="Recreation of a Bob Ross painting">
-                            <svg width="1rem" height="1rem"
-                                 viewBox="0 0 64 64"
-                                 fill="#666666"
-                            >
-                                <path
-                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
                     </div>
     </a>
 </div>
-                    </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11004">
-        <div data-img="/images/fanpaintings/fanpainting11004.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11004.jpg" class="preview img-fluid" alt="image"/>
+                            </div>
+                                                                                <div  class="col-6 col-md-4 mb-4" >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/271">
+        <div data-img="/images/fanpaintings/fanpainting271.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview271.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Kaylee
+                                             MaxPowers
                     
                 </span>
                 <div class="float-right">
-                    6
+                    1
                     <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
-                            <div class="painting-card__title">
-                    <div class="d-flex align-items-center justify-content-between">
-                   <span>
-                Daisies at Dawn
-                   </span>
-
-                        <div title="Recreation of a Bob Ross painting">
-                            <svg width="1rem" height="1rem"
-                                 viewBox="0 0 64 64"
-                                 fill="#666666"
-                            >
-                                <path
-                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
                     </div>
     </a>
 </div>
-                    </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11003">
-        <div data-img="/images/fanpaintings/fanpainting11003.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11003.jpg" class="preview img-fluid" alt="image"/>
+                            </div>
+                                                                                <div  class="col-4 d-none d-md-block mb-4"
+                                 >
+                                <div class="painting-holder painting-card">
+    <a href="/fanpaintings/621">
+        <div data-img="/images/fanpaintings/fanpainting621.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview621.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Mgiese84
+                                             Jrhana
+                    
+                </span>
+                <div class="float-right">
+                    0
+                    <ion-icon name="chatboxes"></ion-icon>
+                </div>
+            </div>
+                    </div>
+    </a>
+</div>
+                            </div>
+                                                                                                        </div>
+                                            <div class="row">
+                            <div class="col-12 text-center">
+                                <a href="/painting/winter-solitude" class="btn btn-primary">View more</a>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-grey">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/learning.svg">
+                    </div>
+                    <h2>Everything you need to paint</h2>
+                    <p>Interested in starting to paint?<br> Head over to our "Getting started" guide to find the
+                        easiest way to begin creating your own masterpieces.<br>
+                        Our "Tools & Color" pages has everything you need and tips for which items are really
+                        important and which are just nice to have.
+                    </p>
+                    <a href="/getting-started" class="btn btn-primary btn-sm mt-2">Getting Started</a>
+                    <a href="/tools" class="btn btn-primary btn-sm mt-2">Tools & Colors</a>
+                </div>
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/money.svg">
+                    </div>
+                    <h2>For the best price</h2>
+                    <p>To help you save real money when buying your supplies we've created a dealfinder that shows
+                        you the best deals for Bob Ross painting equipment on Amazon.com.<br>
+                    </p>
+                    <p>
+                        Check back often for great deals!
+                    </p>
+                    <a href="/tools/deals" class="btn btn-primary btn-sm mt-2">Dealfinder</a>
+                </div>
+                <div class="col-12 col-md-4 pr-5 my-4">
+                    <div class="illustration-holder">
+                        <img class="illustration" src="svg/illustrations/community.svg">
+                    </div>
+                    <h2>Be a part of our community</h2>
+                    <p>More than 3100 painters from all over the globe have
+                        joined TwoInchBrush to share their paintings with others.
+                    </p>
+                    <p>
+                        Join now and become a part of the movement!
+                    </p>
+                    <a href="/register" class="btn btn-primary btn-sm mt-2">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fanpaintings">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-4 offset-md-4 text-center">
+                    <h2>Painted by our community</h2>
+                    <div>
+                        <p>
+                            Ever wondered if "real" people can paint just as well as Bob Ross?
+                        </p>
+                        <p>
+                            Check out some of the paintings our community members have submitted and see for yourself!
+                        </p>
+                    </div>
+                    <a href="/fanmade" class="btn btn-primary">View More</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/2961">
+        <div data-img="/images/fanpaintings/fanpainting2961.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview2961.jpg" class="preview img-fluid" alt="image"/>
+        </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             Madame Mouton
                     
                 </span>
                 <div class="float-right">
@@ -402,7 +465,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Rippling Waters
+                Golden Rays of Sunshine
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -421,160 +484,16 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                    <div class="content_desktop_hint"></div>
-                                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11002">
-        <div data-img="/images/fanpaintings/fanpainting11002.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11002.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/7742">
+        <div data-img="/images/fanpaintings/fanpainting7742.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview7742.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Shadowlink11
-                    
-                </span>
-                <div class="float-right">
-                    7
-                    <ion-icon name="chatboxes"></ion-icon>
-                </div>
-            </div>
-                            <div class="painting-card__title">
-                    <div class="d-flex align-items-center justify-content-between">
-                   <span>
-                That Time of Year
-                   </span>
-
-                        <div title="Recreation of a Bob Ross painting">
-                            <svg width="1rem" height="1rem"
-                                 viewBox="0 0 64 64"
-                                 fill="#666666"
-                            >
-                                <path
-                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                    </div>
-    </a>
-</div>
-                    </div>
-                    <div class="row">
-        <div class="col">
-            <div class="content_mobile_hint"></div>
-        </div>
-    </div>
-                                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11001">
-        <div data-img="/images/fanpaintings/fanpainting11001.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11001.jpg" class="preview img-fluid" alt="image"/>
-        </div>
-        <div class="painting-card__info">
-            <div class="painting-card__meta">
-                <span>
-                                             DBerkey
-                    
-                </span>
-                <div class="float-right">
-                    4
-                    <ion-icon name="chatboxes"></ion-icon>
-                </div>
-            </div>
-                            <div class="painting-card__title">
-                    <div class="d-flex align-items-center justify-content-between">
-                   <span>
-                Autumn Exhibition
-                   </span>
-
-                        <div title="Recreation of a Bob Ross painting">
-                            <svg width="1rem" height="1rem"
-                                 viewBox="0 0 64 64"
-                                 fill="#666666"
-                            >
-                                <path
-                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                    </div>
-    </a>
-</div>
-                    </div>
-                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="painting-holder painting-card">
-                <a href="/blog/article/brush-care-guide-how-to-clean-and-store-your-brushes" target="_blank">
-                    <div data-img="/images/bloglinks/brush-care-guide-how-to-clean-and-store-your-brushes.jpg" class="progressive replace">
-                        <img src="/images/bloglinks/previews/brush-care-guide-how-to-clean-and-store-your-brushes.jpg" class="preview img-fluid" alt="image"/>
-                    </div>
-                    <div class="painting-card__info">
-                        <div class="painting-card__meta">
-                            <span>How to clean and store your brushes</span>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="d-flex">
-                                <span class="painting-card__title">
-                                The Big Brush Care Guide
-                                 </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/11000">
-        <div data-img="/images/fanpaintings/fanpainting11000.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview11000.jpg" class="preview img-fluid" alt="image"/>
-        </div>
-        <div class="painting-card__info">
-            <div class="painting-card__meta">
-                <span>
-                                             Mgiese84
-                    
-                </span>
-                <div class="float-right">
-                    4
-                    <ion-icon name="chatboxes"></ion-icon>
-                </div>
-            </div>
-                            <div class="painting-card__title">
-                    <div class="d-flex align-items-center justify-content-between">
-                   <span>
-                Oval Barn
-                   </span>
-
-                        <div title="Recreation of a Bob Ross painting">
-                            <svg width="1rem" height="1rem"
-                                 viewBox="0 0 64 64"
-                                 fill="#666666"
-                            >
-                                <path
-                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                    </div>
-    </a>
-</div>
-                    </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10999">
-        <div data-img="/images/fanpaintings/fanpainting10999.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10999.jpg" class="preview img-fluid" alt="image"/>
-        </div>
-        <div class="painting-card__info">
-            <div class="painting-card__meta">
-                <span>
-                                             mc
+                                             HappyLittleAnna
                     
                 </span>
                 <div class="float-right">
@@ -585,7 +504,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Mountain by the Sea
+                Storm on the Horizon
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -604,27 +523,27 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10998">
-        <div data-img="/images/fanpaintings/fanpainting10998.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10998.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/2213">
+        <div data-img="/images/fanpaintings/fanpainting2213.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview2213.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Cronenberg89
+                                             JerrikasFamily
                     
                 </span>
                 <div class="float-right">
-                    4
+                    0
                     <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Absolutely Autumn
+                Blue Winter
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -643,16 +562,16 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10997">
-        <div data-img="/images/fanpaintings/fanpainting10997.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10997.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/8163">
+        <div data-img="/images/fanpaintings/fanpainting8163.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview8163.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             MFrederick
+                                             karnasnapko
                     
                 </span>
                 <div class="float-right">
@@ -663,7 +582,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Around the Bend
+                Ebony Sea
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -682,11 +601,11 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10996">
-        <div data-img="/images/fanpaintings/fanpainting10996.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10996.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/5625">
+        <div data-img="/images/fanpaintings/fanpainting5625.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview5625.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
@@ -695,14 +614,14 @@ the TV show 'The Joy of Painting' with Bob Ross.
                     
                 </span>
                 <div class="float-right">
-                    6
+                    3
                     <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Cliffside 
+                Sunset Oval
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -721,22 +640,16 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                    <div class="content_desktop_hint"></div>
-    <div class="row">
-        <div class="col">
-            <div class="content_mobile_hint"></div>
-        </div>
-    </div>
-                                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10995">
-        <div data-img="/images/fanpaintings/fanpainting10995.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10995.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/3511">
+        <div data-img="/images/fanpaintings/fanpainting3511.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview3511.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Lidon123
+                                             Artist1536
                     
                 </span>
                 <div class="float-right">
@@ -747,7 +660,7 @@ the TV show 'The Joy of Painting' with Bob Ross.
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Red Sunset
+                Wintertime Discovery
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -766,27 +679,27 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                                                                            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                                    <div class="col-6 col-md-3 mb-4">
                         <div class="painting-holder painting-card">
-    <a href="/fanpaintings/10994">
-        <div data-img="/images/fanpaintings/fanpainting10994.jpg" class="progressive replace">
-            <img src="/images/fanpaintings/previews/preview10994.jpg" class="preview img-fluid" alt="image"/>
+    <a href="/fanpaintings/9873">
+        <div data-img="/images/fanpaintings/fanpainting9873.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview9873.jpg" class="preview img-fluid" alt="image"/>
         </div>
         <div class="painting-card__info">
             <div class="painting-card__meta">
                 <span>
-                                             Mgiese84
+                                             MetalJohnny
                     
                 </span>
                 <div class="float-right">
-                    12
+                    0
                     <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
                             <div class="painting-card__title">
                     <div class="d-flex align-items-center justify-content-between">
                    <span>
-                Mountain Splendor
+                Cactus at Sunset
                    </span>
 
                         <div title="Recreation of a Bob Ross painting">
@@ -805,70 +718,49 @@ the TV show 'The Joy of Painting' with Bob Ross.
     </a>
 </div>
                     </div>
-                                        <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="painting-holder painting-card">
-                <a href="/blog/article/6-tips-to-improve-your-bob-ross-wet-on-wet-technique" target="_blank">
-                    <div data-img="/images/bloglinks/6-tips-to-improve-your-bob-ross-wet-on-wet-technique.jpg" class="progressive replace">
-                        <img src="/images/bloglinks/previews/6-tips-to-improve-your-bob-ross-wet-on-wet-technique.jpg" class="preview img-fluid" alt="image"/>
-                    </div>
-                    <div class="painting-card__info">
-                        <div class="painting-card__meta">
-                            <span>Every painter should follow number 6!</span>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <div class="d-flex">
-                                <span class="painting-card__title">
-                                6 Tips To Improve Your Wet-On-Wet-Technique
-                                 </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                                    <div class="col-6 col-md-3 mb-4">
+                        <div class="painting-holder painting-card">
+    <a href="/fanpaintings/7448">
+        <div data-img="/images/fanpaintings/fanpainting7448.jpg" class="progressive replace">
+            <img src="/images/fanpaintings/previews/preview7448.jpg" class="preview img-fluid" alt="image"/>
         </div>
-                                </div>
-            <div class="row mt-4">
-                <div class="col-12">
-                    <div class="d-inline text-center">
-                        <nav>
-        <ul class="pagination">
-            
-                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
-                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
-                </li>
-            
-            
-                            
-                
-                
-                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=2">2</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=3">3</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=4">4</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=5">5</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=6">6</a></li>
-                                                                                        
-                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
-                
-                
-                                            
-                
-                
-                                                                                        <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=817">817</a></li>
-                                                                                                <li class="page-item"><a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=818">818</a></li>
-                                                                        
-            
-                            <li class="page-item">
-                    <a class="page-link" href="https://www.twoinchbrush.com/fanpaintings?page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
-                </li>
-                    </ul>
-    </nav>
-
-                    </div>
+        <div class="painting-card__info">
+            <div class="painting-card__meta">
+                <span>
+                                             N Kav
+                    
+                </span>
+                <div class="float-right">
+                    5
+                    <ion-icon name="chatboxes"></ion-icon>
                 </div>
             </div>
+                            <div class="painting-card__title">
+                    <div class="d-flex align-items-center justify-content-between">
+                   <span>
+                Evening at Sunset
+                   </span>
+
+                        <div title="Recreation of a Bob Ross painting">
+                            <svg width="1rem" height="1rem"
+                                 viewBox="0 0 64 64"
+                                 fill="#666666"
+                            >
+                                <path
+                                    d="M 32.004081,-0.03320315 A 22.614843,22.614843 0 0 0 9.3892385,22.58164 22.614843,22.614843 0 0 0 19.800796,41.592242 12.369593,11.993331 0 0 0 21.45326,45.913589 C 14.252728,48.457507 7.1201592,52.202438 5.0263198,54.587463 3.211111,56.59419 3.1260431,59.912143 3.1826282,64.082371 l 28.2103538,0.09146 29.432552,-0.09146 c 0.05904,-4.170228 -0.658597,-7.887266 -2.552483,-9.893994 -2.116725,-2.310931 -8.735249,-5.612694 -15.861569,-8.056538 A 12.369593,11.993331 0 0 0 44.192817,41.627577 22.614843,22.614843 0 0 0 54.618924,22.58164 22.614843,22.614843 0 0 0 32.004081,-0.03320315 Z M 32.35536,20.216227 c 4.610051,0.07166 9.142231,1.260366 9.939722,3.523177 0.415407,2.043571 -0.166878,7.875278 -2.463105,12.365413 C 34.059961,33.140239 29.043842,33.953126 24.305058,36.154697 21.829104,31.641435 21.052704,25.70421 21.952117,23.398512 23.05832,21.191251 27.745308,20.14455 32.35536,20.216222 Z m -0.164208,17.34151 c 1.997353,-0.02175 3.970676,0.379063 5.915611,1.2222 -1.513899,1.803805 -3.482187,3.015095 -5.998753,3.011848 -2.396951,0.01992 -4.364026,-1.176217 -5.936397,-2.953648 2.03106,-0.8218 4.036978,-1.258803 6.019539,-1.2804 z m -5.04261,13.142799 a 12.369593,11.993331 0 0 0 4.855539,0.966535 12.369593,11.993331 0 0 0 3.70817,-0.567449 l -4.248597,10.725422 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </a>
+</div>
+                    </div>
+                            </div>
         </div>
     </section>
+
     <section>
         <div class="container">
     <div class="row">
