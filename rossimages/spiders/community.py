@@ -14,5 +14,9 @@ class CommunitySpider(scrapy.Spider):
 
         # Recursively crawl the next page and parse the images.
         # yield from response.follow_all(
-        #     xpath="ul[@class='pagination']//a[@rel='next']", callback=self.parse
+        #     xpath="//ul[@class='pagination']//a[@rel='next']", callback=self.parse
         # )
+
+
+# Get non-ad images from Two-Inch Brush.
+# response.xpath("//a[not(@target='_blank')]//img/@src").get()
