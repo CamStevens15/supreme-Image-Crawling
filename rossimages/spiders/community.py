@@ -1,4 +1,5 @@
 import scrapy
+from rossimages.items import ImageItem
 
 
 class CommunitySpider(scrapy.Spider):
@@ -7,16 +8,13 @@ class CommunitySpider(scrapy.Spider):
     start_urls = ["https://www.twoinchbrush.com/fanpaintings"]
 
     def parse(self, response):
-        filename = "community.html"
-        with open(filename, "wb") as f:
-            f.write(response.body)
-        self.log(f"Saved file {filename}")
+        URL_PREFIX = "https://www.twoinchbrush.com"
+        for source in response.xpath(
+            "//a[not(@target='_blank')]//div[@class='progressive replace']/@data-img"
+        ).getall():
+            yield ImageItem(image_urls=[f"{URL_PREFIX}{source}"])
 
         # Recursively crawl the next page and parse the images.
-        # yield from response.follow_all(
-        #     xpath="//ul[@class='pagination']//a[@rel='next']", callback=self.parse
-        # )
-
-
-# Get non-ad images from Two-Inch Brush.
-# response.xpath("//a[not(@target='_blank')]//img/@src").get()
+        yield from response.follow_all(
+            xpath="//ul[@class='pagination']//a[@rel='next']", callback=self.parse
+        )
