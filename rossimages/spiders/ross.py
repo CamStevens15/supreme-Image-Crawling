@@ -5,7 +5,7 @@ from rossimages.items import ImageItem
 class RossSpider(scrapy.Spider):
     name = "ross"
     allowed_domains = ["www.twoinchbrush.com"]
-    start_urls = ["http://www.twoinchbrush.com/all-paintings"]
+    start_urls = ["https://www.twoinchbrush.com/all-paintings"]
 
     def parse(self, response):
         URL_PREFIX = "https://www.twoinchbrush.com"
