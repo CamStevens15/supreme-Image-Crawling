@@ -3,7 +3,8 @@ from rossimages.items import ImageItem
 
 
 class RossSpider(scrapy.Spider):
-    """This spider crawls original Ross paintings as well as fan reproductions and save them to a directory."""
+    """This spider crawls original Ross paintings as well as fan recreations and saves them to a directory."""
+
     name = "ross"
     allowed_domains = ["www.twoinchbrush.com"]
     start_urls = [
